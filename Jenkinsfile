@@ -1,7 +1,8 @@
 node {
    def mvnHome
    stage('checkout') { // for display purposes
-      git 'https://github.com/rita19872/sample-maven1.git'
+      //git 'https://github.com/rita19872/sample-maven1.git'
+      git 'https://github.com/rita19872/sample-maven2.git'
       env.JAVA_HOME = tool 'JDK1.8'
       mvnHome = tool 'M2'
    }
